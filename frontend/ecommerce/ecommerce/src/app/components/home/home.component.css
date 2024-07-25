@@ -1,0 +1,113 @@
+/* Style for the container with the heading and paragraph */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    /* Adjust height as needed */
+    text-align: center;
+    padding: 20px;
+    /* Add some padding around the content */
+}
+
+/* General footer styles */
+footer {
+    background-color: #000;
+    /* Black background */
+    color: #fff;
+    /* White text color */
+    padding: 35px 0;
+    /* Spacing around the content */
+}
+
+footer h5 {
+    color: #fff;
+    /* White color for headings */
+    font-size: 18px;
+    margin-bottom: 15px;
+    /* Space below headings */
+}
+
+footer p,
+footer li {
+    color: #ccc;
+    /* Light gray text for paragraphs and list items */
+    font-size: 14px;
+    line-height: 1.5;
+    /* Line height for readability */
+}
+
+footer ul {
+    padding-left: 0;
+    /* Remove default padding */
+    list-style-type: none;
+    /* Remove bullets */
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    /* Space between list items */
+}
+
+footer .list-inline {
+    padding-left: 0;
+    /* Remove default padding */
+    list-style-type: none;
+    /* Remove bullets */
+}
+
+footer .list-inline li {
+    display: inline;
+    /* Display list items inline */
+    margin-right: 15px;
+    /* Space between items */
+}
+
+footer .list-inline li a {
+    color: #ccc;
+    /* Light gray color for links */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+footer .list-inline li a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+footer .text-center {
+    text-align: center;
+    /* Center text */
+    margin-top: 20px;
+    /* Space above the text */
+}
+
+footer .container {
+    max-width: 1140px;
+    /* Adjust to fit your design */
+}
+
+footer .row {
+    display: flex;
+    /* Flexbox for layout */
+    flex-wrap: wrap;
+    /* Wrap items to next line if needed */
+}
+
+footer .col-md-3 {
+    flex: 1;
+    /* Flex-grow to take available space */
+    margin-bottom: 20px;
+    /* Space below columns */
+}
+
+@media (max-width: 767px) {
+    footer .col-md-3 {
+        text-align: center;
+        /* Center text on smaller screens */
+        margin-bottom: 20px;
+        /* Space below columns */
+    }
+    
+}
